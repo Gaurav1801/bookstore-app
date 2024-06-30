@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": "$109",
+    "category": "notfree",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1475717469.1719747513&semt=sph"
+}, {
+    "id": 2,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": "$609",
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1475717469.1719747513&semt=sph"
+}, {
+    "id": 3,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": "$209",
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1475717469.1719747513&semt=sph"
+}, {
+    "id": 4,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": "$109",
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1475717469.1719747513&semt=sph"
+}, {
+    "id": 5,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1475717469.1719747513&semt=sph"
+}, {
+    "id": 5,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": "$59",
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1475717469.1719747513&semt=sph"
+}, {
+    "id": 6,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1475717469.1719747513&semt=sph"
+}, {
+    "id": 7,
+    "name": "comedy",
+    "title": "the kapil sharma show",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1719751843~exp=1719755443~hmac=e9fc237c6a8bad99bce19120267be0f799d132ecb474871226060ddd18d4b518&w=740"
+}]
