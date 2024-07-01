@@ -1,14 +1,31 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import List from "./../../public/list.json";
+// import List from "./../../public/list.json";
 import Slider from "react-slick";
 import Card from "./Card";
+import axios from "axios"
 
 export default function Freebooks() {
-  const books = List.filter((data) => {
+  const [book,setBook]=useState([]);
+  useEffect(()=>{
+    const getbook= async ()=>{
+ try {
+  const res = await axios.get('http://localhost:3000/book');
+  const data = res.data.filter((data) => {
     return data.category === "Free";
   });
+  console.log(data);
+  setBook(data);
+} catch (error) {
+  console.log(error)
+}
+};
+getbook();
+  },[])
+
+  
+  // 
 //   console.log(books);
 
   var settings = {
@@ -59,9 +76,9 @@ export default function Freebooks() {
           impedit dicta? Blanditiis, cumque.
         </p>
         </div>
-      <div className="mt-10">
+      <div className="mt-10 pb-10">
       <Slider {...settings}>
-        {books.map((items)=>{
+        {book.map((items)=>{
            return <Card data={items} key={items.id}/>
         })}
       </Slider>

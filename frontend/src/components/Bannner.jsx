@@ -31,7 +31,7 @@ export default function Bannner() {
           <button className="px-2 py-3  mt-4 rounded-md text-white bg-pink-600">Secondary</button>
           </div>
         </div>
-        <div className="w-full  md:w-1/2 order-1 md:order-2"><img  className="w-92 h-92"src="/banner.jpg" alt="" /></div>
+        <div className="w-full  md:w-1/2 order-1 md:order-2 mt-10 md:mt-0"><img  className="w-92 h-92"src="/banner.jpg" alt="" /></div>
       </div>
     </>
   );
